@@ -35,8 +35,10 @@
     "jest": "^22.0.6"
   },
   "dependencies": {
-    "yeoman-generator": "^2.0.1",
     "chalk": "^2.1.0",
+    "elm": "^0.18.0",
+    "elm-live": "^2.7.5",
+    "yeoman-generator": "^2.0.1",
     "yosay": "^2.0.1"
   },
   "jest": {
