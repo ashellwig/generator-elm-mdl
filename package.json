@@ -1,6 +1,6 @@
 {
   "name": "generator-elm-mdl",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Scaffolds a pure elm-mdl project with Yeoman",
   "homepage": "https://github.com/ashellwig/generator-elm-mdl",
   "author": {

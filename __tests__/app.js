@@ -9,7 +9,6 @@ describe('generator-elm-mdl:app', () => {
   });
 
   it('creates files', () => {
-    assert.file(['dummyfile.txt']);
     assert.file(['elm-package.json']);
     assert.file(['src/Elm/Main.elm']);
     assert.file(['src/Elm/Components/Models.elm']);

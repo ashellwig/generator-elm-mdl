@@ -39,6 +39,6 @@ module.exports = class extends Generator {
 
   // Install Dependencies
   install() {
-    this.spawnCommand('elm-package', ['install']);
+    this.spawnCommand('elm-package', ['install', '--yes']);
   }
 };
