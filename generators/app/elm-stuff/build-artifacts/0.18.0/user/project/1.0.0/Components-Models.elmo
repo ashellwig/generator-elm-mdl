@@ -1,0 +1,5 @@
+var _user$project$Components_Models$model = {count: 0, mdl: _debois$elm_mdl$Material$model};
+var _user$project$Components_Models$Model = F2(
+	function (a, b) {
+		return {count: a, mdl: b};
+	});

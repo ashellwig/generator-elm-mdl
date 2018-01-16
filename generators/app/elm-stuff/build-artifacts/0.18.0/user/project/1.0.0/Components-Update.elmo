@@ -1,0 +1,24 @@
+var _user$project$Components_Update$update = F2(
+	function (msg, model) {
+		var _p0 = msg;
+		switch (_p0.ctor) {
+			case 'Increase':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{count: model.count + 1}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			case 'Reset':
+				return {
+					ctor: '_Tuple2',
+					_0: _elm_lang$core$Native_Utils.update(
+						model,
+						{count: 0}),
+					_1: _elm_lang$core$Platform_Cmd$none
+				};
+			default:
+				return A3(_debois$elm_mdl$Material$update, _user$project$Components_Types$Mdl, _p0._0, model);
+		}
+	});

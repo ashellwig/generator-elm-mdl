@@ -1,0 +1,5 @@
+var _user$project$Components_Types$Mdl = function (a) {
+	return {ctor: 'Mdl', _0: a};
+};
+var _user$project$Components_Types$Reset = {ctor: 'Reset'};
+var _user$project$Components_Types$Increase = {ctor: 'Increase'};
