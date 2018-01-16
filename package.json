@@ -45,7 +45,6 @@
     "testEnvironment": "node"
   },
   "scripts": {
-    "prepublish": "nsp check",
     "pretest": "eslint .",
     "precommit": "lint-staged",
     "test": "jest"
