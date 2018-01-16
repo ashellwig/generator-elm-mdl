@@ -4,4 +4,8 @@ node_js:
   - v8
   - v6
   - v4
+before_script: 
+  - npm run-script pretest
+run_script:
+  - npm run-script test
 after_script: cat ./coverage/lcov.info | coveralls
