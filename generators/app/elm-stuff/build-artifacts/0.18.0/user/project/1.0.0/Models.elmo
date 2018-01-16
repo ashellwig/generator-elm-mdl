@@ -1,5 +1,0 @@
-var _user$project$Models$model = {count: 0, mdl: _debois$elm_mdl$Material$model};
-var _user$project$Models$Model = F2(
-	function (a, b) {
-		return {count: a, mdl: b};
-	});

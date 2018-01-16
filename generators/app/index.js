@@ -7,15 +7,15 @@ module.exports = class extends Generator {
   prompting() {
     // Have Yeoman greet the user.
     this.log(yosay(
-      'Welcome to the wicked ' + chalk.red('generator-elm-mdl') + ' generator!'
+      'Welcome to the wicked ' + chalk.red('elm-mdl') + ' generator!'
     ));
-
-    const prompts = [{
-      type: 'confirm',
-      name: 'someAnswer',
-      message: 'Would you like to enable this option?',
-      default: true
-    }];
+/* Untoggle Line Comment Below for Prompts */ 
+    // const prompts = [{
+      // type: 'confirm',
+      // name: 'someAnswer',
+      // message: 'Would you like to enable this option?',
+      // default: true
+    // }];
 
     return this.prompt(prompts).then(props => {
       // To access props later use this.props.someAnswer;
