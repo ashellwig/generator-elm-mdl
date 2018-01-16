@@ -1,2 +1,6 @@
+# Build Dependencies
+elm-stuff
 node_modules
+
+# Coverage
 coverage
