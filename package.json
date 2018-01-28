@@ -62,8 +62,7 @@
         "error",
         {
           "singleQuote": true,
-          "printWidth": 90,
-          "linebreak-style": "windows"
+          "printWidth": 90
         }
       ]
     },
