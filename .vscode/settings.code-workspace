@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "C:\\Users\\hellw\\Documents\\PORTFOLIO\\npm-packages\\generator-elm-mdl"
+		}
+	],
+  "settings": {
+    "files.eol": "\n",
+    "prettier.eslintIntegration": true,
+    "prettier.singleQuote": true,
+  }
+}

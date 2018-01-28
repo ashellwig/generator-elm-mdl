@@ -8,9 +8,7 @@
     "email": "ahellwig.dev@gmail.com",
     "url": "https://github.com/ashellwig"
   },
-  "files": [
-    "generators"
-  ],
+  "files": ["generators"],
   "main": "generators/index.js",
   "keywords": [
     "yeoman",
@@ -50,20 +48,11 @@
     "test": "jest"
   },
   "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ],
-    "*.json": [
-      "prettier --write",
-      "git add"
-    ]
+    "*.js": ["eslint --fix", "git add"],
+    "*.json": ["prettier --write", "git add"]
   },
   "eslintConfig": {
-    "extends": [
-      "xo",
-      "prettier"
-    ],
+    "extends": ["xo", "prettier"],
     "env": {
       "jest": true,
       "node": true
@@ -73,13 +62,12 @@
         "error",
         {
           "singleQuote": true,
-          "printWidth": 90
+          "printWidth": 90,
+          "linebreak-style": "windows"
         }
       ]
     },
-    "plugins": [
-      "prettier"
-    ]
+    "plugins": ["prettier"]
   },
   "repository": "ashellwig/generator-elm-mdl",
   "license": "BSD-3-Clause"
