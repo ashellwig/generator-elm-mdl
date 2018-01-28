@@ -1,5 +1,7 @@
-# generator-elm-mdl [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
+# generator-elm-mdl [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > Scaffolds a pure elm-mdl project with Yeoman
+
+## Development Branch
 
 ## Installation
 
@@ -30,7 +32,7 @@ BSD-3-Clause © [Ashton Hellwig](https://github.com/ashellwig)
 
 [npm-image]: https://badge.fury.io/js/generator-elm-mdl.svg
 [npm-url]: https://npmjs.org/package/generator-elm-mdl
-[travis-image]: https://travis-ci.org/ashellwig/generator-elm-mdl.svg?branch=master
+[travis-image]: https://travis-ci.org/ashellwig/generator-elm-mdl.svg?branch=dev
 [travis-url]: https://travis-ci.org/ashellwig/generator-elm-mdl
 [daviddm-image]: https://david-dm.org/ashellwig/generator-elm-mdl.svg?theme=shields.io
 [daviddm-url]: https://david-dm.org/ashellwig/generator-elm-mdl
