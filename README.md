@@ -16,6 +16,7 @@
 Then generate your new project:
 
 ```bash
+cd <project-location>
 yo elm-mdl
 ```
 
