@@ -7,4 +7,4 @@ before_script:
   - npm run-script pretest
 run_script:
   - npm run-script test
-after_script: cat ./coverage/lcov.info | ./node_modules/.bin/coveralls
+after_script: cat ./node_modules/lcov-parse/coverage/lcov.info | ./node_modules/.bin/coveralls
